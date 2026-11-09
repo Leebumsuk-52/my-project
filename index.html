@@ -1,13 +1,85 @@
-<!doctype html>
-<html lang="en">
+﻿<!doctype html>
+<html lang="ko">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>my-project</title>
+    <meta name="description" content="전문 역량과 교육 철학, 주요 프로젝트를 소개하는 개인 페이지입니다." />
+    <title>홍길동 | 자기소개</title>
   </head>
   <body>
-    <div id="app"></div>
+    <a class="skip-link" href="#main">본문 바로가기</a>
+    <header class="intro">
+      <div class="container">
+        <!-- 이름과 소개 문구를 자신의 정보로 바꿔 주세요. -->
+        <h1>안녕하세요, 홍길동입니다.</h1>
+        <p class="intro-text">배움을 통해 가능성을 발견하고, 함께 성장하는 교육을 만들어 갑니다.</p>
+        <nav aria-label="주요 메뉴">
+          <a href="#expertise">역량과 철학</a>
+          <a href="#projects">주요 프로젝트</a>
+          <a href="#contact">연락처</a>
+        </nav>
+        <p class="intro-caption">나를 소개합니다</p>
+      </div>
+    </header>
+
+    <main id="main" class="container">
+      <p class="example-note">아래 내용은 예시입니다. 이름, 역량, 프로젝트와 연락처를 자신의 정보로 수정해 주세요.</p>
+      <section id="expertise" aria-labelledby="expertise-title">
+        <h2 id="expertise-title">전문 역량과 교육 철학</h2>
+        <p class="section-description">배움을 설계하고 실천할 때 중요하게 생각하는 세 가지입니다.</p>
+        <div class="cards">
+          <article class="card">
+            <span class="card-number" aria-hidden="true">01</span>
+            <h3>학습자 중심의 교육 설계</h3>
+            <p>학습자의 관심과 수준을 이해하고, 스스로 질문하며 배울 수 있는 수업을 설계합니다.</p>
+          </article>
+          <article class="card">
+            <span class="card-number" aria-hidden="true">02</span>
+            <h3>디지털 도구 활용</h3>
+            <p>목적에 맞는 디지털 도구와 콘텐츠를 활용해 어려운 개념을 쉽게 전달하고 참여를 돕습니다.</p>
+          </article>
+          <article class="card">
+            <span class="card-number" aria-hidden="true">03</span>
+            <h3>함께 성장하는 배움</h3>
+            <p>서로 다른 생각을 존중하고, 협력과 피드백을 통해 함께 성장하는 배움의 문화를 지향합니다.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="projects" aria-labelledby="projects-title">
+        <h2 id="projects-title">주요 프로젝트</h2>
+        <p class="section-description">관심과 생각을 실제 활동으로 옮긴 프로젝트 예시입니다.</p>
+        <ul class="project-list">
+          <li>
+            <h3>참여형 수업 자료 제작</h3>
+            <p>학습자가 직접 탐구하고 의견을 나눌 수 있는 활동지와 수업 자료를 기획합니다.</p>
+          </li>
+          <li>
+            <h3>디지털 학습 콘텐츠 개발</h3>
+            <p>핵심 개념을 쉽게 이해하고 스스로 복습할 수 있는 온라인 학습 콘텐츠를 만듭니다.</p>
+          </li>
+          <li>
+            <h3>함께 배우는 스터디 운영</h3>
+            <p>관심 주제를 함께 공부하고, 배운 내용을 공유하는 작은 학습 모임을 운영합니다.</p>
+          </li>
+        </ul>
+      </section>
+
+      <section id="contact" class="contact" aria-labelledby="contact-title">
+        <h2 id="contact-title">연락처</h2>
+        <p>교육과 협업에 관한 이야기를 나누고 싶다면 연락해 주세요.</p>
+        <!-- 아래 이메일과 GitHub 주소는 예시입니다. 실제 주소로 교체해 주세요. -->
+        <div class="contact-links">
+          <a href="mailto:hello@example.com">이메일: hello@example.com</a>
+          <a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer">GitHub (새 탭)</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="container footer">
+      <small>© <span id="year"></span> 홍길동</small>
+    </footer>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
+

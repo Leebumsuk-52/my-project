@@ -1,0 +1,12 @@
+﻿{
+ "entries": [{
+  "mode": "redesign", "depth": "full", "scope": "page",
+  "theme": "specimen", "shape": "Letter", "axes": "dark/grotesk-sans/cool",
+  "hero": "Corridor", "nav": "editorial masthead", "footer": "colophon",
+  "imagery": "none", "photos": [], "entry": "introduction",
+  "signature": "large Korean introduction and restrained blue rule",
+  "sections": ["introduction", "expertise", "projects", "contact", "footer"],
+  "waived": ["3", "11"], "prompt": "Preserve placeholder copy; navy charcoal modern editorial educator portfolio",
+  "verification": "Vite build passed; combined HTML/CSS static check passed; browser render unavailable without puppeteer-core"
+ }]
+}

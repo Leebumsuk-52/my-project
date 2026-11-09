@@ -1,0 +1,33 @@
+﻿:root {
+  color-scheme: dark;
+  --color-paper: oklch(18% 0.025 257);
+  --color-paper-2: oklch(22% 0.023 257);
+  --color-paper-3: oklch(27% 0.025 257);
+  --color-ink: oklch(94% 0.008 252);
+  --color-ink-2: oklch(81% 0.018 252);
+  --color-muted: oklch(72% 0.025 252);
+  --color-rule: oklch(34% 0.025 257);
+  --color-rule-2: oklch(45% 0.035 257);
+  --color-accent: oklch(75% 0.09 252);
+  --color-accent-ink: oklch(18% 0.025 257);
+  --color-focus: oklch(81% 0.09 252);
+  --color-clear: transparent;
+  --font-display: 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif;
+  --font-body: 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif;
+  --display-weight: 600;
+  --tracking-display: -0.045em;
+  --text-md: 1rem;
+  --text-sm: 0.875rem;
+  --text-display: clamp(2.75rem, 6.5vw, 5.5rem);
+  --text-section: clamp(2rem, 3.5vw, 3rem);
+  --text-title: clamp(1.25rem, 1.6vw, 1.5rem);
+  --text-lead: clamp(1.125rem, 1.5vw, 1.375rem);
+  --container: 1280px;
+  --gutter: clamp(24px, 5vw, 64px);
+  --gap-columns: 24px;
+  --space-md: 16px;
+  --space-3xl: 96px;
+  --dur-short: 220ms;
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
